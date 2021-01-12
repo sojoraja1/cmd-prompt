@@ -1,0 +1,78 @@
+#title{
+  text-align: center;
+  font-weight: 100;
+}
+.command {
+  height: 400px;
+  width: 50%;
+  background-color: black;
+  margin: auto;
+}
+.menu {
+  height: 20px;
+  background-color: white;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.logo {
+  display: inline-block;
+  height: 21px;
+  width: 45px;
+}
+.menulogo {
+  height: 100%;
+  width: 100%;
+}
+.menuname {
+  display: inline-block;
+  position: absolute;
+}
+
+.commandscreen {
+  color: white;
+  display: flex;
+}
+#cursor {
+  line-height: 17px;
+  margin-left: 3px;
+  animation: blink 0.8s infinite;
+  width: 4px;
+  height: 15px;
+}
+
+@keyframes blink {
+  0% {
+    background: #222;
+  }
+  50% {
+    background: white;
+  }
+  100% {
+    background: #222;
+  }
+}
+
+.tips{
+    height: 200px;
+    width: 50%;
+    margin: auto;
+}
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+
+  .tips{
+
+    margin-top: 10px;
+  }
